@@ -32,7 +32,8 @@ while cont < randnumber:
     writeLastNumber()
     os.system("git add .")
     os.system(f'git commit -m "auto commit {last_number + 1}"')
-    os.system("git push origin main")
     print(f"Pushed commit {cont + 1}")
-    time.sleep(5)
+    time.sleep(3)
     cont = cont + 1
+
+    os.system("git push origin main")
