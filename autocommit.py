@@ -25,6 +25,7 @@ def writeLastNumber():
         f.write(f"{last_number + 1}\n")
 
 randnumber = random.randint(5,10)
+print(f"Number of commits: {randnumber}")
 cont = 0
 while cont < randnumber:
     last_number = getLastNumber()
