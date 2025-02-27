@@ -36,4 +36,4 @@ while cont < randnumber:
     time.sleep(3)
     cont = cont + 1
 
-    os.system("git push origin main")
+os.system("git push origin main")
