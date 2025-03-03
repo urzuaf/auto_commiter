@@ -24,7 +24,7 @@ def writeLastNumber():
     with open(filename, "a") as f:
         f.write(f"{last_number + 1}\n")
 
-randnumber = random.randint(5,10)
+randnumber = random.randint(12,25)
 print(f"Number of commits: {randnumber}")
 cont = 0
 while cont < randnumber:
